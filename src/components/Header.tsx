@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          Danpro Global LLC
+          Danpro <span style={{ color: 'var(--secondary-color)', marginLeft: '6px' }}>Global LLC</span>
         </Link>
         <nav className={styles.nav}>
           <Link href="/">Inicio</Link>

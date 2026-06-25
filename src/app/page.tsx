@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from './page.module.css';
 import { ShoppingCart, TrendingUp, ShieldCheck } from 'lucide-react';
 
@@ -6,6 +7,15 @@ export default function Home() {
     <div className={styles.main}>
       {/* Hero Section */}
       <section className={styles.hero}>
+        <Image 
+          src="/images/hero-logistics.jpg"
+          alt="Logística Global y E-commerce"
+          fill
+          priority
+          style={{ objectFit: 'cover', zIndex: 0 }}
+          className={styles.heroImage}
+        />
+        <div className={styles.heroOverlay}></div>
         <div className={styles.heroContent}>
           <h1 className={styles.title}>Distribución Estratégica para Marketplaces</h1>
           <p className={styles.subtitle}>

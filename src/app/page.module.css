@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background-color: var(--primary-color);
+  position: relative;
   color: var(--text-light);
   min-height: 80vh;
   display: flex;
@@ -12,13 +12,23 @@
   justify-content: center;
   padding: 2rem;
   text-align: center;
-  /* Placeholder image, ready to be replaced in public/images */
-  background-image: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('/images/hero-logistics.jpg');
-  background-size: cover;
-  background-position: center;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 25, 47, 0.85);
+  z-index: 1;
 }
 
 .heroContent {
+  position: relative;
+  z-index: 2;
   max-width: 800px;
 }
 

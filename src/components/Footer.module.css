@@ -1,7 +1,16 @@
 .footer {
   background-color: var(--primary-color);
   color: var(--text-light);
-  padding: 4rem 2rem 6rem; /* Extra bottom padding for mobile nav */
+}
+
+.mainFooter {
+  padding: 4rem 2rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .mainFooter {
+    padding-bottom: 2rem;
+  }
 }
 
 .container {
@@ -108,15 +117,24 @@
   color: var(--secondary-color);
 }
 
-.bottom {
-  max-width: 1200px;
-  margin: 3rem auto 0;
-  padding-top: 1.5rem;
+.bottomBar {
+  background-color: var(--primary-color);
   border-top: 1px solid rgba(255,255,255,0.1);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   font-size: 0.9rem;
   opacity: 0.7;
 }
