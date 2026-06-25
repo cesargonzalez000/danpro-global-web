@@ -120,9 +120,18 @@
 .bottomBar {
   background-color: var(--primary-color);
   border-top: 1px solid rgba(255,255,255,0.1);
-  height: 80px;
+  min-height: 80px;
   display: flex;
   align-items: center;
+  padding-bottom: 70px; /* Space for MobileNav */
+  padding-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .bottomBar {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
 }
 
 .bottom {
@@ -134,9 +143,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  opacity: 0.7;
+  gap: 1rem;
+  font-size: 0.95rem;
+  color: var(--bg-white);
+}
+
+.legal {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.legal a {
+  color: var(--secondary-color);
+  font-weight: 600;
+  transition: opacity 0.3s;
+}
+
+.legal a:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
