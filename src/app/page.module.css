@@ -22,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(10, 25, 47, 0.85);
+  background: linear-gradient(to bottom, rgba(0, 33, 71, 0.6) 0%, rgba(0, 33, 71, 0.2) 100%);
   z-index: 1;
 }
 
@@ -164,6 +164,78 @@
 .serviceDesc {
   line-height: 1.6;
   opacity: 0.8;
+}
+
+/* How It Works Section */
+.howItWorksGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+  .howItWorksGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .howItWorksGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stepCard {
+  background-color: var(--bg-light-gray);
+  padding: 2rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.stepNumber {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: var(--font-heading);
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 auto 1rem auto;
+}
+
+.stepTitle {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+.stepDesc {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  line-height: 1.5;
+}
+
+.howItWorksImageWrapper {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 3rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+@media (min-width: 768px) {
+  .howItWorksImageWrapper {
+    height: 400px;
+  }
 }
 
 /* Contact Form Styles */

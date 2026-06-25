@@ -12,6 +12,7 @@ export default function Header() {
           <Link href="/">Inicio</Link>
           <Link href="#nosotros">Nosotros</Link>
           <Link href="#servicios">Servicios</Link>
+          <Link href="#como-trabajamos">Cómo trabajamos</Link>
           <Link href="#contacto">Contacto</Link>
         </nav>
       </div>

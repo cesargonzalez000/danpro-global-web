@@ -77,8 +77,50 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Cómo Trabajamos Section */}
+      <section id="como-trabajamos" className={`${styles.section} ${styles.bgWhite}`}>
+        <div className={styles.container}>
+          <h2 className={styles.sectionTitle}>¿Cómo trabajamos?</h2>
+          <p className={styles.paragraph}>
+            Nuestro proceso está diseñado para brindar eficiencia y escalabilidad en cada paso de su cadena de suministro.
+          </p>
+
+          <div className={styles.howItWorksGrid}>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>1</div>
+              <h3 className={styles.stepTitle}>Selección Estratégica</h3>
+              <p className={styles.stepDesc}>Analizamos proveedores y productos de alta demanda para asegurar compras inteligentes.</p>
+            </div>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>2</div>
+              <h3 className={styles.stepTitle}>Logística Global</h3>
+              <p className={styles.stepDesc}>Coordinamos el transporte seguro de tu mercancía desde origen hasta nuestras instalaciones.</p>
+            </div>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>3</div>
+              <h3 className={styles.stepTitle}>Consolidación y Gestión</h3>
+              <p className={styles.stepDesc}>Inspeccionamos y consolidamos tus pedidos para garantizar un envío eficiente.</p>
+            </div>
+            <div className={styles.stepCard}>
+              <div className={styles.stepNumber}>4</div>
+              <h3 className={styles.stepTitle}>Inventario y Distribución</h3>
+              <p className={styles.stepDesc}>Distribuimos tu catálogo en marketplaces de alto volumen, garantizando flujo constante de ventas.</p>
+            </div>
+          </div>
+
+          <div className={styles.howItWorksImageWrapper}>
+            <Image 
+              src="/images/how-it-works.jpg"
+              alt="Proceso de Logística Global"
+              fill
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Contacto Section */}
-      <section id="contacto" className={`${styles.section} ${styles.bgWhite}`}>
+      <section id="contacto" className={`${styles.section} ${styles.bgGray}`}>
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Contáctenos</h2>
           <p className={styles.paragraph}>
