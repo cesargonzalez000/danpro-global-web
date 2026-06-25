@@ -166,12 +166,47 @@
   opacity: 0.8;
 }
 
-/* How It Works Section */
+/* How It Works Section - Premium Styles */
+.howItWorksSection {
+  position: relative;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  color: var(--text-light);
+}
+
+.howItWorksOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 33, 71, 0.6) 0%, rgba(0, 33, 71, 0.2) 100%);
+  z-index: 1;
+}
+
+.sectionTitleWhite {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-light);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.paragraphWhite {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
 .howItWorksGrid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  margin-top: 3rem;
 }
 
 @media (min-width: 768px) {
@@ -184,15 +219,6 @@
   .howItWorksGrid {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-.stepCard {
-  background-color: var(--bg-light-gray);
-  padding: 2rem 1.5rem;
-  border-radius: 8px;
-  text-align: center;
-  position: relative;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 .stepNumber {
@@ -208,34 +234,39 @@
   font-weight: bold;
   font-size: 1.2rem;
   margin: 0 auto 1rem auto;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.stepTitle {
-  font-size: 1.1rem;
-  color: var(--primary-color);
-  margin-bottom: 0.75rem;
-}
-
-.stepDesc {
-  font-size: 0.95rem;
-  opacity: 0.8;
-  line-height: 1.5;
-}
-
-.howItWorksImageWrapper {
+.stepCardPremium {
+  background-color: rgba(0, 33, 71, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  text-align: center;
   position: relative;
-  width: 100%;
-  height: 300px;
-  border-radius: 8px;
-  overflow: hidden;
-  margin-top: 3rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s, background-color 0.3s;
 }
 
-@media (min-width: 768px) {
-  .howItWorksImageWrapper {
-    height: 400px;
-  }
+.stepCardPremium:hover {
+  transform: translateY(-5px);
+  background-color: rgba(0, 33, 71, 0.7);
+}
+
+.stepTitlePremium {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.stepDescPremium {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  line-height: 1.5;
+  color: var(--bg-white);
 }
 
 /* Contact Form Styles */
