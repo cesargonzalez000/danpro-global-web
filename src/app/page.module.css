@@ -221,20 +221,10 @@
   }
 }
 
-.stepNumber {
-  background-color: var(--secondary-color);
-  color: var(--text-light);
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  font-family: var(--font-heading);
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin: 0 auto 1rem auto;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+.stepIcon {
+  color: var(--bg-white);
+  margin: 0 auto 1.5rem auto;
+  display: block;
 }
 
 .stepCardPremium {

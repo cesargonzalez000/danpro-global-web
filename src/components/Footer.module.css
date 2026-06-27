@@ -156,8 +156,8 @@
 }
 
 .legal a {
-  color: var(--secondary-color);
-  font-weight: 600;
+  color: var(--bg-white);
+  font-weight: 500;
   transition: opacity 0.3s;
 }
 

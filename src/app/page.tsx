@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import { ShoppingCart, TrendingUp, ShieldCheck } from 'lucide-react';
+import { ShoppingCart, TrendingUp, ShieldCheck, Search, Truck, PackageCheck, BarChart } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -94,22 +94,22 @@ export default function Home() {
 
           <div className={styles.howItWorksGrid}>
             <div className={styles.stepCardPremium}>
-              <div className={styles.stepNumber}>1</div>
+              <Search size={40} className={styles.stepIcon} />
               <h3 className={styles.stepTitlePremium}>Selección Estratégica</h3>
               <p className={styles.stepDescPremium}>Analizamos proveedores y productos de alta demanda para asegurar compras inteligentes.</p>
             </div>
             <div className={styles.stepCardPremium}>
-              <div className={styles.stepNumber}>2</div>
+              <Truck size={40} className={styles.stepIcon} />
               <h3 className={styles.stepTitlePremium}>Logística Global</h3>
               <p className={styles.stepDescPremium}>Coordinamos el transporte seguro de tu mercancía desde origen hasta nuestras instalaciones.</p>
             </div>
             <div className={styles.stepCardPremium}>
-              <div className={styles.stepNumber}>3</div>
+              <PackageCheck size={40} className={styles.stepIcon} />
               <h3 className={styles.stepTitlePremium}>Consolidación y Gestión</h3>
               <p className={styles.stepDescPremium}>Inspeccionamos y consolidamos tus pedidos para garantizar un envío eficiente.</p>
             </div>
             <div className={styles.stepCardPremium}>
-              <div className={styles.stepNumber}>4</div>
+              <BarChart size={40} className={styles.stepIcon} />
               <h3 className={styles.stepTitlePremium}>Gestión de Inventario y Distribución</h3>
               <p className={styles.stepDescPremium}>Distribuimos tu catálogo en marketplaces de alto volumen, garantizando flujo constante de ventas.</p>
             </div>
