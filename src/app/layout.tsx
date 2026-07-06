@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <link rel="icon" href="/images/logo.png" type="image/png" />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{

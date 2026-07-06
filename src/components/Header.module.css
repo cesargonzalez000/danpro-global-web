@@ -1,5 +1,5 @@
 .header {
-  background: linear-gradient(135deg, #003b80 0%, var(--primary-color) 100%);
+  background: linear-gradient(to right, #003366 0%, var(--primary-color) 100%);
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   position: sticky;
   top: 0;
