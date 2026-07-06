@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -6,7 +7,15 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          Danpro <span style={{ color: 'var(--secondary-color)', marginLeft: '6px' }}>Global LLC</span>
+          <div className={styles.logoImageWrapper}>
+            <Image 
+              src="/images/logo.png" 
+              alt="Danpro Logo" 
+              fill 
+              style={{ objectFit: 'contain' }} 
+            />
+          </div>
+          <span>Danpro <span style={{ color: 'var(--secondary-color)', marginLeft: '6px' }}>Global LLC</span></span>
         </Link>
         <nav className={styles.nav}>
           <Link href="/">Inicio</Link>

@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--primary-color);
+  background: linear-gradient(135deg, #003b80 0%, var(--primary-color) 100%);
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   position: sticky;
   top: 0;
@@ -27,6 +27,17 @@
   text-transform: none;
   display: flex;
   align-items: center;
+  gap: 12px;
+}
+
+.logoImageWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .nav {
