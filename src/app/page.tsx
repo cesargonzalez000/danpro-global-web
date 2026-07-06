@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import { ShoppingCart, TrendingUp, ShieldCheck, Search, Truck, PackageCheck, BarChart } from 'lucide-react';
+import ContactForm from '@/components/ContactForm';
 
 export default function Home() {
   return (
@@ -125,25 +126,7 @@ export default function Home() {
             Estamos listos para optimizar su cadena de suministro. Envíenos su consulta y nuestro equipo de expertos se comunicará a la brevedad.
           </p>
           
-          <form className={styles.contactForm}>
-            <div className={styles.formGroup}>
-              <label htmlFor="name">Nombre</label>
-              <input type="text" id="name" name="name" placeholder="Su nombre completo" required />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="company">Empresa</label>
-              <input type="text" id="company" name="company" placeholder="Nombre de su empresa" required />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="email">Correo Electrónico</label>
-              <input type="email" id="email" name="email" placeholder="su@correo.com" required />
-            </div>
-            <div className={styles.formGroup}>
-              <label htmlFor="message">Mensaje</label>
-              <textarea id="message" name="message" rows={5} placeholder="¿Cómo podemos ayudarle con su logística y distribución?" required></textarea>
-            </div>
-            <button type="submit" className={styles.submitButton}>Enviar Mensaje</button>
-          </form>
+          <ContactForm />
         </div>
       </section>
     </div>
