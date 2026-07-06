@@ -1,6 +1,6 @@
 :root {
   --primary-color: #002147;
-  --secondary-color: #FFC107;
+  --secondary-color: #C59B27;
   --bg-white: #FFFFFF;
   --bg-light-gray: #F4F4F4;
   --text-dark: #1A202C;
@@ -41,13 +41,4 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-/* Smartsupp mobile offset to avoid overlapping with MobileNav */
-@media (max-width: 767px) {
-  div#smartsupp-widget-container,
-  iframe#smartsupp-widget-container,
-  [id^="smartsupp-widget"] {
-    margin-bottom: 80px !important;
-  }
 }
