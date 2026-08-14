@@ -11,8 +11,8 @@ export default function Footer() {
           <div className={styles.column}>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
               <img src="/logo.png" alt="Danpro Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain', marginRight: '0.5rem' }} />
-              <span style={{ fontWeight: 'bold', color: 'white', fontSize: '1.5rem' }}>Danpro</span>
-              <span style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.5rem', marginLeft: '0.5rem' }}>Global LLC</span>
+              <span className="font-bold text-white text-2xl" style={{ fontWeight: 'bold', color: 'white', fontSize: '1.5rem' }}>Danpro</span>
+              <span className="font-bold text-[#E5B800] text-2xl ml-2" style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.5rem', marginLeft: '0.5rem' }}>Global LLC</span>
             </div>
             <p className={styles.subtitle}>Excelencia en Logística</p>
             <p className={styles.description}>
