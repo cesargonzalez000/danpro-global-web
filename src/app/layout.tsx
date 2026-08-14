@@ -26,8 +26,16 @@ export default function RootLayout({
           __html: `
             @media (max-width: 767px) {
               html .crisp-client {
-                transform: translateY(-80px) !important;
+                bottom: 80px !important;
+                margin-bottom: 80px !important;
                 z-index: 999999 !important;
+              }
+              /* Ensure the MobileNav does not block touch events above its visual area */
+              #mobile-nav-container {
+                pointer-events: none;
+              }
+              #mobile-nav-container > * {
+                pointer-events: auto;
               }
             }
           `
