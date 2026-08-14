@@ -21,11 +21,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/images/logo.png" type="image/png" />
+        <link rel="icon" href="/logo.png" type="image/png" />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
-            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="[PON_AQUI_TU_ID_DE_CRISP]";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
+            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="de8d5aad-587d-4923-8ba2-9207e47fd75a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
           }}
         />
       </head>

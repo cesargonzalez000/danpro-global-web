@@ -9,7 +9,7 @@ export default function Header() {
         <Link href="/" className={styles.logo}>
           <div className={styles.logoImageWrapper}>
             <Image 
-              src="/images/logo.png" 
+              src="/logo.png" 
               alt="Danpro Logo" 
               fill 
               style={{ objectFit: 'contain', objectPosition: 'left center' }} 

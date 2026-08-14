@@ -10,7 +10,7 @@ export default function Footer() {
         <div className={styles.container}>
           <div className={styles.column}>
             <div className={styles.footerLogoWrapper}>
-              <Image src="/images/logo.png" alt="Danpro Logo" fill style={{ objectFit: 'contain', objectPosition: 'left center' }} />
+              <Image src="/logo.png" alt="Danpro Logo" fill style={{ objectFit: 'contain', objectPosition: 'left center' }} />
             </div>
             <p className={styles.subtitle}>Excelencia en Logística</p>
             <p className={styles.description}>
