@@ -21,22 +21,13 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <link rel="icon" href="/images/logo.png" type="image/png" />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
-            __html: `
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = 'ebc40c3821b8e1cebfe14a39f15e22a49a576f2b';
-window.smartsupp||(function(d) {
-  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-  c.type='text/javascript';c.charset='utf-8';c.async=true;
-  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
-`
+            __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="[PON_AQUI_TU_ID_DE_CRISP]";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
           }}
         />
-        <noscript>Powered by <a href="https://www.smartsupp.com" target="_blank" rel="noreferrer">Smartsupp</a></noscript>
       </head>
       <body className={`${inter.variable} ${outfit.variable}`}>
         <Header />

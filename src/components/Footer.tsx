@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Footer.module.css';
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from 'lucide-react';
 
@@ -8,7 +9,12 @@ export default function Footer() {
       <div className={styles.mainFooter}>
         <div className={styles.container}>
           <div className={styles.column}>
-            <h3 className={styles.logo}>Danpro Global LLC</h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1rem' }}>
+              <div style={{ position: 'relative', width: '40px', height: '40px', flexShrink: 0 }}>
+                <Image src="/images/logo.png" alt="Danpro Logo" fill style={{ objectFit: 'contain' }} />
+              </div>
+              <h3 className={styles.logo} style={{ marginBottom: 0 }}>Danpro Global LLC</h3>
+            </div>
             <p className={styles.subtitle}>Excelencia en Logística</p>
             <p className={styles.description}>
               Optimizamos su cadena de suministro para escalar en el mercado estadounidense.
