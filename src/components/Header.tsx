@@ -7,7 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo} style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/logo.png" alt="Danpro Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain', marginRight: '0.5rem' }} />
+          <img src="/logo.png" alt="" style={{ height: '50px', width: 'auto', objectFit: 'contain', marginRight: '0.5rem' }} />
           <span className="font-bold text-white text-2xl" style={{ fontWeight: 'bold', color: 'white', fontSize: '1.5rem' }}>Danpro</span>
           <span className="font-bold text-[#E5B800] text-2xl ml-2" style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.5rem', marginLeft: '0.5rem' }}>Global LLC</span>
         </Link>
