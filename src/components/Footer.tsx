@@ -9,9 +9,7 @@ export default function Footer() {
       <div className={styles.mainFooter}>
         <div className={styles.container}>
           <div className={styles.column}>
-            <div className={styles.footerLogoWrapper}>
-              <Image src="/logo.png" alt="Danpro Logo" fill style={{ objectFit: 'contain', objectPosition: 'left center' }} />
-            </div>
+            <img src="/logo.png" alt="Danpro Logo" className={styles.footerLogoImg} />
             <p className={styles.subtitle}>Excelencia en Logística</p>
             <p className={styles.description}>
               Optimizamos su cadena de suministro para escalar en el mercado estadounidense.

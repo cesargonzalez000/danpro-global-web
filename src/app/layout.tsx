@@ -21,7 +21,16 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/logo.png" />
+        <style dangerouslySetInnerHTML={{
+          __html: `
+            @media (max-width: 767px) {
+              html .crisp-client {
+                transform: translateY(-80px) !important;
+              }
+            }
+          `
+        }} />
         <script
           type="text/javascript"
           dangerouslySetInnerHTML={{

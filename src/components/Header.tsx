@@ -7,14 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <div className={styles.logoImageWrapper}>
-            <Image 
-              src="/logo.png" 
-              alt="Danpro Logo" 
-              fill 
-              style={{ objectFit: 'contain', objectPosition: 'left center' }} 
-            />
-          </div>
+          <img src="/logo.png" alt="Danpro Logo" className={styles.logoImg} />
         </Link>
         <nav className={styles.nav}>
           <Link href="/">Inicio</Link>
