@@ -12,10 +12,9 @@ export default function Header() {
               src="/images/logo.png" 
               alt="Danpro Logo" 
               fill 
-              style={{ objectFit: 'contain' }} 
+              style={{ objectFit: 'contain', objectPosition: 'left center' }} 
             />
           </div>
-          <span>Danpro <span style={{ color: 'var(--secondary-color)', marginLeft: '6px' }}>Global LLC</span></span>
         </Link>
         <nav className={styles.nav}>
           <Link href="/">Inicio</Link>

@@ -7,36 +7,29 @@
   height: 80px;
   display: flex;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--bg-white);
-  text-transform: none;
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 
 .logoImageWrapper {
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 220px;
+  height: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-shrink: 0;
 }
 

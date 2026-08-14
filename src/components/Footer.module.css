@@ -36,10 +36,11 @@
   }
 }
 
-.logo {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  margin-bottom: 0.25rem;
+.footerLogoWrapper {
+  position: relative;
+  width: 220px;
+  height: 50px;
+  margin-bottom: 1rem;
 }
 
 .subtitle {
@@ -125,6 +126,8 @@
   align-items: center;
   padding-bottom: 70px; /* Space for MobileNav */
   padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -138,7 +141,6 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
