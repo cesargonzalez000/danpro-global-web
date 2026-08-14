@@ -103,6 +103,16 @@
   color: var(--secondary-color);
 }
 
+.navColumn {
+  padding-right: 70px;
+}
+
+@media (min-width: 768px) {
+  .navColumn {
+    padding-right: 0;
+  }
+}
+
 .social {
   display: flex;
   gap: 1rem;

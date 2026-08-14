@@ -9,9 +9,10 @@ export default function Footer() {
       <div className={styles.mainFooter}>
         <div className={styles.container}>
           <div className={styles.column}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1rem' }}>
-              <img src="/logo.png" alt="Danpro Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain' }} />
-              <span style={{ color: 'white', fontWeight: 'bold', fontSize: '1.25rem' }}>DanPro Global LLC</span>
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
+              <img src="/logo.png" alt="Danpro Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain', marginRight: '0.5rem' }} />
+              <span style={{ fontWeight: 'bold', color: 'white', fontSize: '1.5rem' }}>Danpro</span>
+              <span style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.5rem', marginLeft: '0.5rem' }}>Global LLC</span>
             </div>
             <p className={styles.subtitle}>Excelencia en Logística</p>
             <p className={styles.description}>
@@ -45,7 +46,7 @@ export default function Footer() {
             </ul>
           </div>
           
-          <div className={styles.column}>
+          <div className={`${styles.column} ${styles.navColumn}`}>
             <h4 className={styles.title}>Navegación Rápida</h4>
             <ul className={styles.quickLinks}>
               <li><Link href="/">Inicio</Link></li>
