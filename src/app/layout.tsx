@@ -11,6 +11,9 @@ const outfit = Outfit({ subsets: ["latin"], variable: "--font-heading" });
 export const metadata: Metadata = {
   title: "Danpro Global LLC | Distribución Estratégica para Marketplaces",
   description: "Danpro Global LLC optimiza su cadena de suministro para escalar en el mercado estadounidense. Compras mayoristas, e-commerce y protección de marca MAP.",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
