@@ -7,7 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <img src="/logo.png" alt="Danpro Logo" className={styles.logoImg} />
+          <img src="/logo.png" alt="Danpro Global LLC" style={{ height: '50px', width: 'auto', objectFit: 'contain' }} />
         </Link>
         <nav className={styles.nav}>
           <Link href="/">Inicio</Link>
