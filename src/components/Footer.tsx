@@ -10,7 +10,7 @@ export default function Footer() {
         <div className={styles.container}>
           <div className={styles.column}>
             <div className="flex flex-row items-center justify-start flex-nowrap w-full shrink-0" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', flexWrap: 'nowrap', width: '100%', flexShrink: 0, gap: '0.5rem', marginBottom: '1rem' }}>
-              <img src="/logo.png" alt="Danpro Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain', marginRight: '1rem', flexShrink: 0 }} />
+              <img src="/logo.png" alt="Danpro Logo" style={{ height: '50px', width: 'auto', objectFit: 'contain', marginRight: '0.5rem', flexShrink: 0 }} />
               <span className="font-bold text-white text-xl whitespace-nowrap shrink-0" style={{ fontWeight: 'bold', color: 'white', fontSize: '1.25rem', whiteSpace: 'nowrap', flexShrink: 0 }}>Danpro</span>
               <span className="font-bold text-[#E5B800] text-xl whitespace-nowrap shrink-0 ml-1" style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.25rem', whiteSpace: 'nowrap', flexShrink: 0, marginLeft: '0.25rem' }}>Global LLC</span>
             </div>
