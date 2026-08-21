@@ -4,22 +4,22 @@ export default function PrivacyPolicy() {
       <h1 style={{ color: 'var(--primary-color)', marginBottom: '2rem' }}>Privacy Policy</h1>
       
       <p style={{ marginBottom: '1.5rem' }}>
-        En <strong>Danpro Global LLC</strong>, valoramos y protegemos la privacidad de la información corporativa y comercial de nuestros socios y clientes. Esta Política de Privacidad describe cómo recopilamos, usamos y resguardamos los datos en el marco de nuestras operaciones logísticas y de importación.
+        At <strong>Danpro Global LLC</strong>, we value and protect the privacy of the corporate and commercial information of our partners and clients. This Privacy Policy describes how we collect, use, and safeguard data within the framework of our logistics and import operations.
       </p>
 
-      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Manejo Transparente de Datos</h2>
+      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Transparent Data Management</h2>
       <p style={{ marginBottom: '1.5rem' }}>
-        Nos comprometemos a mantener una total transparencia en el manejo de datos de importación y logística. Toda la información suministrada, incluyendo volúmenes de carga, manifiestos de aduana, inventarios y estrategias de distribución para plataformas de e-commerce, es considerada estrictamente confidencial.
+        We are committed to maintaining total transparency in the management of import and logistics data. All information provided, including cargo volumes, customs manifests, inventories, and distribution strategies for e-commerce platforms, is considered strictly confidential.
       </p>
 
-      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Uso de la Información</h2>
+      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Use of Information</h2>
       <p style={{ marginBottom: '1.5rem' }}>
-        La información recopilada se utiliza exclusivamente para la optimización de su cadena de suministro, la gestión de compras mayoristas B2B y el aseguramiento del posicionamiento en el mercado estadounidense. No compartimos datos logísticos ni comerciales con terceros no autorizados.
+        The collected information is used exclusively for the optimization of your supply chain, the management of B2B wholesale purchases, and ensuring positioning in the U.S. market. We do not share logistical or commercial data with unauthorized third parties.
       </p>
 
-      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Protección de Marca (MAP)</h2>
+      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Brand Protection (MAP)</h2>
       <p style={{ marginBottom: '1.5rem' }}>
-        Reconocemos la importancia de la integridad de marca. Los datos proporcionados para el monitoreo y cumplimiento de las políticas de precios (MAP) están protegidos mediante protocolos de seguridad corporativa para garantizar que su reputación en línea no se vea comprometida.
+        We recognize the importance of brand integrity. The data provided for the monitoring and compliance of pricing policies (MAP) is protected by corporate security protocols to ensure that your online reputation is not compromised.
       </p>
     </div>
   );

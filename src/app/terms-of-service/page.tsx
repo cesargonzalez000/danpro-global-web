@@ -4,22 +4,22 @@ export default function TermsOfService() {
       <h1 style={{ color: 'var(--primary-color)', marginBottom: '2rem' }}>Terms of Service</h1>
       
       <p style={{ marginBottom: '1.5rem' }}>
-        Los presentes Términos de Servicio rigen las relaciones comerciales, operativas y logísticas entre <strong>Danpro Global LLC</strong> y sus socios estratégicos. Al utilizar nuestros servicios, usted acepta las condiciones aquí establecidas.
+        These Terms of Service govern the commercial, operational, and logistical relationships between <strong>Danpro Global LLC</strong> and its strategic partners. By using our services, you accept the conditions set forth herein.
       </p>
 
-      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Términos Comerciales y de Importación</h2>
+      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Commercial and Import Terms</h2>
       <p style={{ marginBottom: '1.5rem' }}>
-        Danpro Global LLC actúa como un canal optimizado de adquisiciones estratégicas B2B. Todas las transacciones de compra de alto volumen y los procesos de importación están sujetos a acuerdos comerciales formales, respetando las normativas aduaneras vigentes de los Estados Unidos.
+        Danpro Global LLC acts as an optimized channel for strategic B2B acquisitions. All high-volume purchasing transactions and import processes are subject to formal commercial agreements, respecting current United States customs regulations.
       </p>
 
-      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Tiempos de Entrega y Logística</h2>
+      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Delivery Times and Logistics</h2>
       <p style={{ marginBottom: '1.5rem' }}>
-        Nuestros tiempos de entrega estimados se calculan en base a condiciones logísticas normales. Sin embargo, los plazos de importación pueden verse afectados por inspecciones aduaneras, demoras en el tránsito marítimo o aéreo, y otros factores externos fuera del control estricto de Danpro Global LLC. Nos comprometemos a mantener una comunicación proactiva sobre el estado de su carga.
+        Our estimated delivery times are calculated based on normal logistical conditions. However, import deadlines may be affected by customs inspections, delays in maritime or air transit, and other external factors beyond the strict control of Danpro Global LLC. We are committed to maintaining proactive communication regarding the status of your cargo.
       </p>
 
-      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>Condiciones de Servicios E-commerce</h2>
+      <h2 style={{ fontSize: '1.5rem', color: 'var(--secondary-color)', marginTop: '2rem', marginBottom: '1rem' }}>E-commerce Service Conditions</h2>
       <p style={{ marginBottom: '1.5rem' }}>
-        La gestión de inventarios y el posicionamiento en plataformas como Amazon, Walmart y eBay están condicionados a las políticas internas de cada marketplace. Danpro Global LLC se compromete a velar por el cumplimiento de las políticas de precios (MAP), garantizando la integridad comercial del producto.
+        Inventory management and positioning on platforms such as Amazon, Walmart, and eBay are subject to the internal policies of each marketplace. Danpro Global LLC is committed to ensuring compliance with pricing policies (MAP), guaranteeing the commercial integrity of the product.
       </p>
     </div>
   );
