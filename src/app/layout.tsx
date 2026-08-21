@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-heading" });
 
 export const metadata: Metadata = {
-  title: "Danpro Global LLC | Distribución Estratégica para Marketplaces",
-  description: "Danpro Global LLC optimiza su cadena de suministro para escalar en el mercado estadounidense. Compras mayoristas, e-commerce y protección de marca MAP.",
+  title: "Danpro Global LLC | Strategic Distribution for Marketplaces",
+  description: "Danpro Global LLC optimizes your supply chain to scale in the U.S. market. Wholesale purchasing, e-commerce, and MAP brand protection.",
   icons: {
     icon: '/favicon.png',
   },
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" />
         <style dangerouslySetInnerHTML={{

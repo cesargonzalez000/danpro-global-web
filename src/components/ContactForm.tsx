@@ -43,9 +43,9 @@ export default function ContactForm() {
   if (status === 'success') {
     return (
       <div className={styles.successMessage}>
-        <p>¡Gracias por su mensaje! Nos comunicaremos con usted a la brevedad.</p>
+        <p>Thank you for your message! We will contact you shortly.</p>
         <button onClick={() => setStatus('idle')} className={styles.submitButton}>
-          Enviar otro mensaje
+          Send another message
         </button>
       </div>
     );
@@ -54,26 +54,26 @@ export default function ContactForm() {
   return (
     <form className={styles.contactForm} onSubmit={handleSubmit}>
       <div className={styles.formGroup}>
-        <label htmlFor="name">Nombre</label>
-        <input type="text" id="name" name="name" placeholder="Su nombre completo" required />
+        <label htmlFor="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
       </div>
       <div className={styles.formGroup}>
-        <label htmlFor="company">Empresa</label>
-        <input type="text" id="company" name="company" placeholder="Nombre de su empresa" required />
+        <label htmlFor="company">Company</label>
+        <input type="text" id="company" name="company" placeholder="Your company name" required />
       </div>
       <div className={styles.formGroup}>
-        <label htmlFor="email">Correo Electrónico</label>
-        <input type="email" id="email" name="email" placeholder="su@correo.com" required />
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@email.com" required />
       </div>
       <div className={styles.formGroup}>
-        <label htmlFor="message">Mensaje</label>
-        <textarea id="message" name="message" rows={5} placeholder="¿Cómo podemos ayudarle con su logística y distribución?" required></textarea>
+        <label htmlFor="message">Message</label>
+        <textarea id="message" name="message" rows={5} placeholder="How can we help you with your logistics and distribution?" required></textarea>
       </div>
       <button type="submit" className={styles.submitButton} disabled={status === 'submitting'}>
-        {status === 'submitting' ? 'Enviando...' : 'Enviar Mensaje'}
+        {status === 'submitting' ? 'Sending...' : 'Send Message'}
       </button>
       {status === 'error' && (
-        <p className={styles.errorMessage}>Ocurrió un error al enviar el formulario. Por favor intente nuevamente.</p>
+        <p className={styles.errorMessage}>An error occurred while sending the form. Please try again.</p>
       )}
     </form>
   );

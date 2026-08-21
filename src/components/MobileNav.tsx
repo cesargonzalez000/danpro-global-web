@@ -7,23 +7,23 @@ export default function MobileNav() {
     <nav className={styles.mobileNav}>
       <Link href="/" className={styles.link}>
         <Home size={24} />
-        <span>Inicio</span>
+        <span>Home</span>
       </Link>
       <Link href="#nosotros" className={styles.link}>
         <Info size={24} />
-        <span>Nosotros</span>
+        <span>About Us</span>
       </Link>
       <Link href="#servicios" className={styles.link}>
         <Briefcase size={24} />
-        <span>Servicios</span>
+        <span>Services</span>
       </Link>
       <Link href="#como-trabajamos" className={styles.link}>
         <Layers size={24} />
-        <span>Proceso</span>
+        <span>Process</span>
       </Link>
       <Link href="#contacto" className={styles.link}>
         <Mail size={24} />
-        <span>Contacto</span>
+        <span>Contact</span>
       </Link>
     </nav>
   );

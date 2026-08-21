@@ -10,7 +10,7 @@ export default function Home() {
       <section className={styles.hero}>
         <Image 
           src="/images/hero-logistics.jpg"
-          alt="Logística Global y E-commerce"
+          alt="Global Logistics and E-commerce"
           fill
           priority
           style={{ objectFit: 'cover', zIndex: 0 }}
@@ -18,23 +18,23 @@ export default function Home() {
         />
         <div className={styles.heroOverlay}></div>
         <div className={styles.heroContent}>
-          <h1 className={styles.title}>Distribución Estratégica para Marketplaces</h1>
+          <h1 className={styles.title}>Strategic Distribution for Marketplaces</h1>
           <p className={styles.subtitle}>
-            Optimizamos su cadena de suministro para escalar en el mercado estadounidense.
+            We optimize your supply chain to scale in the U.S. market.
           </p>
-          <a href="#contacto" className={styles.ctaButton}>Conectar Ahora</a>
+          <a href="#contacto" className={styles.ctaButton}>Connect Now</a>
         </div>
       </section>
 
       {/* Nosotros Section */}
       <section id="nosotros" className={`${styles.section} ${styles.bgWhite}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Nosotros</h2>
+          <h2 className={styles.sectionTitle}>About Us</h2>
           <p className={styles.paragraph}>
-            Danpro Global LLC es una entidad comercial estructurada para optimizar la cadena de suministro entre distribuidores de primer nivel y el mercado digital (Amazon, Walmart, eBay, Target+, etc.). Como empresa legalmente constituida en Estados Unidos, garantizamos operaciones transparentes, sólidas y eficientes.
+            Danpro Global LLC is a commercial entity structured to optimize the supply chain between top-tier distributors and the digital market (Amazon, Walmart, eBay, Target+, etc.). As a legally constituted company in the United States, we guarantee transparent, solid, and efficient operations.
           </p>
           <p className={styles.paragraph}>
-            Enfoque en relaciones a largo plazo basadas en la confianza y el cumplimiento de acuerdos comerciales (MAP).
+            Focus on long-term relationships based on trust and compliance with commercial agreements (MAP).
           </p>
         </div>
       </section>
@@ -42,16 +42,16 @@ export default function Home() {
       {/* Servicios Section */}
       <section id="servicios" className={`${styles.section} ${styles.bgGray}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Nuestros Servicios</h2>
+          <h2 className={styles.sectionTitle}>Our Services</h2>
           
           <div className={styles.servicesCarousel}>
             <div className={styles.serviceCard}>
               <div className={styles.iconWrapper}>
                 <ShoppingCart size={40} />
               </div>
-              <h3 className={styles.serviceTitle}>Compras Mayoristas B2B</h3>
+              <h3 className={styles.serviceTitle}>B2B Wholesale Purchasing</h3>
               <p className={styles.serviceDesc}>
-                Adquisiciones estratégicas de alto volumen en distribuidores top de EE. UU. para modelos multicanal.
+                Strategic high-volume acquisitions from top U.S. distributors for multi-channel models.
               </p>
             </div>
 
@@ -59,9 +59,9 @@ export default function Home() {
               <div className={styles.iconWrapper}>
                 <TrendingUp size={40} />
               </div>
-              <h3 className={styles.serviceTitle}>Posicionamiento E-commerce</h3>
+              <h3 className={styles.serviceTitle}>E-commerce Positioning</h3>
               <p className={styles.serviceDesc}>
-                Gestión integral para escalar en Amazon, Walmart Marketplace, eBay, Target+, optimizando inventario y logística.
+                Comprehensive management to scale on Amazon, Walmart Marketplace, eBay, Target+, optimizing inventory and logistics.
               </p>
             </div>
 
@@ -69,61 +69,61 @@ export default function Home() {
               <div className={styles.iconWrapper}>
                 <ShieldCheck size={40} />
               </div>
-              <h3 className={styles.serviceTitle}>Protección de Marca</h3>
+              <h3 className={styles.serviceTitle}>Brand Protection</h3>
               <p className={styles.serviceDesc}>
-                Respeto estricto a las políticas de precios (MAP) para cuidar la integridad y reputación de sus productos en línea.
+                Strict adherence to pricing policies (MAP) to protect the integrity and reputation of your products online.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cómo Trabajamos Section */}
+      {/* How We Work Section */}
       <section id="como-trabajamos" className={styles.howItWorksSection}>
         <Image 
           src="/images/how-it-works.jpg"
-          alt="Proceso de Logística Global"
+          alt="Global Logistics Process"
           fill
           style={{ objectFit: 'cover', zIndex: 0 }}
         />
         <div className={styles.howItWorksOverlay}></div>
         <div className={styles.container} style={{ position: 'relative', zIndex: 2 }}>
-          <h2 className={styles.sectionTitleWhite}>¿Cómo trabajamos?</h2>
+          <h2 className={styles.sectionTitleWhite}>How We Work</h2>
           <p className={styles.paragraphWhite}>
-            Nuestro proceso está diseñado para brindar eficiencia y escalabilidad en cada paso de su cadena de suministro.
+            Our process is designed to provide efficiency and scalability at every step of your supply chain.
           </p>
 
           <div className={styles.howItWorksGrid}>
             <div className={styles.stepCardPremium}>
               <Search size={40} className={styles.stepIcon} />
-              <h3 className={styles.stepTitlePremium}>Selección Estratégica</h3>
-              <p className={styles.stepDescPremium}>Analizamos proveedores y productos de alta demanda para asegurar compras inteligentes.</p>
+              <h3 className={styles.stepTitlePremium}>Strategic Selection</h3>
+              <p className={styles.stepDescPremium}>We analyze suppliers and high-demand products to ensure smart purchasing.</p>
             </div>
             <div className={styles.stepCardPremium}>
               <Truck size={40} className={styles.stepIcon} />
-              <h3 className={styles.stepTitlePremium}>Logística Global</h3>
-              <p className={styles.stepDescPremium}>Coordinamos el transporte seguro de tu mercancía desde origen hasta nuestras instalaciones.</p>
+              <h3 className={styles.stepTitlePremium}>Global Logistics</h3>
+              <p className={styles.stepDescPremium}>We coordinate the secure transport of your merchandise from its origin to our facilities.</p>
             </div>
             <div className={styles.stepCardPremium}>
               <PackageCheck size={40} className={styles.stepIcon} />
-              <h3 className={styles.stepTitlePremium}>Consolidación y Gestión</h3>
-              <p className={styles.stepDescPremium}>Inspeccionamos y consolidamos tus pedidos para garantizar un envío eficiente.</p>
+              <h3 className={styles.stepTitlePremium}>Consolidation & Management</h3>
+              <p className={styles.stepDescPremium}>We inspect and consolidate your orders to guarantee efficient shipping.</p>
             </div>
             <div className={styles.stepCardPremium}>
               <BarChart size={40} className={styles.stepIcon} />
-              <h3 className={styles.stepTitlePremium}>Gestión de Inventario y Distribución</h3>
-              <p className={styles.stepDescPremium}>Distribuimos tu catálogo en marketplaces de alto volumen, garantizando flujo constante de ventas.</p>
+              <h3 className={styles.stepTitlePremium}>Inventory Management & Distribution</h3>
+              <p className={styles.stepDescPremium}>We distribute your catalog in high-volume marketplaces, ensuring a constant flow of sales.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contacto Section */}
+      {/* Contact Section */}
       <section id="contacto" className={`${styles.section} ${styles.bgGray}`}>
         <div className={styles.container}>
-          <h2 className={styles.sectionTitle}>Contáctenos</h2>
+          <h2 className={styles.sectionTitle}>Contact Us</h2>
           <p className={styles.paragraph}>
-            Estamos listos para optimizar su cadena de suministro. Envíenos su consulta y nuestro equipo de expertos se comunicará a la brevedad.
+            We are ready to optimize your supply chain. Send us your inquiry and our team of experts will contact you shortly.
           </p>
           
           <ContactForm />

@@ -12,11 +12,11 @@ export default function Header() {
           <span className="font-bold text-[#E5B800] text-2xl ml-2" style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.5rem', marginLeft: '0.5rem' }}>Global LLC</span>
         </Link>
         <nav className={styles.nav}>
-          <Link href="/">Inicio</Link>
-          <Link href="#nosotros">Nosotros</Link>
-          <Link href="#servicios">Servicios</Link>
-          <Link href="#como-trabajamos">Cómo trabajamos</Link>
-          <Link href="#contacto">Contacto</Link>
+          <Link href="/">Home</Link>
+          <Link href="#nosotros">About Us</Link>
+          <Link href="#servicios">Services</Link>
+          <Link href="#como-trabajamos">How We Work</Link>
+          <Link href="#contacto">Contact</Link>
         </nav>
       </div>
     </header>

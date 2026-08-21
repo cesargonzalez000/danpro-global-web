@@ -14,14 +14,14 @@ export default function Footer() {
               <span className="font-bold text-white text-xl whitespace-nowrap shrink-0" style={{ fontWeight: 'bold', color: 'white', fontSize: '1.25rem', whiteSpace: 'nowrap', flexShrink: 0 }}>Danpro</span>
               <span className="font-bold text-[#E5B800] text-xl whitespace-nowrap shrink-0 ml-1" style={{ fontWeight: 'bold', color: '#E5B800', fontSize: '1.25rem', whiteSpace: 'nowrap', flexShrink: 0, marginLeft: '0.25rem' }}>Global LLC</span>
             </div>
-            <p className={styles.subtitle}>Excelencia en Logística</p>
+            <p className={styles.subtitle}>Logistics Excellence</p>
             <p className={styles.description}>
-              Optimizamos su cadena de suministro para escalar en el mercado estadounidense.
+              We optimize your supply chain to scale in the U.S. market.
             </p>
           </div>
 
           <div className={styles.column}>
-            <h4 className={styles.title}>Contáctanos</h4>
+            <h4 className={styles.title}>Contact Us</h4>
             <ul className={styles.contactList}>
               <li>
                 <a href="https://maps.google.com/?q=1603+Capitol+Avenue+Suite+413,+Cheyenne,+WY+82001,+USA" target="_blank" rel="noopener noreferrer">
@@ -40,25 +40,25 @@ export default function Footer() {
               </li>
               <li>
                 <span className={styles.hoursSpan}>
-                  <Clock size={18} style={{ flexShrink: 0 }} /> <span>Lunes a Viernes, 9:00 AM - 5:00 PM (EST)</span>
+                  <Clock size={18} style={{ flexShrink: 0 }} /> <span>Monday to Friday, 9:00 AM - 5:00 PM (EST)</span>
                 </span>
               </li>
             </ul>
           </div>
           
           <div className={`${styles.column} ${styles.navColumn}`}>
-            <h4 className={styles.title}>Navegación Rápida</h4>
+            <h4 className={styles.title}>Quick Links</h4>
             <ul className={styles.quickLinks}>
-              <li><Link href="/">Inicio</Link></li>
-              <li><Link href="/#nosotros">Nosotros</Link></li>
-              <li><Link href="/#servicios">Servicios</Link></li>
-              <li><Link href="/#como-trabajamos">Cómo trabajamos</Link></li>
-              <li><Link href="/#contacto">Contacto</Link></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/#nosotros">About Us</Link></li>
+              <li><Link href="/#servicios">Services</Link></li>
+              <li><Link href="/#como-trabajamos">How We Work</Link></li>
+              <li><Link href="/#contacto">Contact</Link></li>
             </ul>
           </div>
 
           <div className={styles.column}>
-            <h4 className={styles.title}>Síguenos</h4>
+            <h4 className={styles.title}>Follow Us</h4>
             <div className={styles.social}>
               <a href="#" aria-label="Instagram"><Instagram size={24} /></a>
               <a href="#" aria-label="Facebook"><Facebook size={24} /></a>
@@ -69,7 +69,7 @@ export default function Footer() {
       
       <div className={styles.bottomBar}>
         <div className={styles.bottom}>
-          <p>© 2026 Danpro Global LLC. Todos los derechos reservados.</p>
+          <p>© 2026 Danpro Global LLC. All rights reserved.</p>
           <div className={styles.legal}>
             <Link href="/privacy-policy">Privacy Policy</Link>
             <Link href="/terms-of-service">Terms of Service</Link>
