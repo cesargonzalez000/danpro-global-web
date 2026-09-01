@@ -1,0 +1,1 @@
+Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile('public\favicon.png'); $bmp = New-Object System.Drawing.Bitmap($img); $color = $bmp.GetPixel(5, 5); Write-Host ('#{0:X2}{1:X2}{2:X2}' -f $color.R, $color.G, $color.B)
