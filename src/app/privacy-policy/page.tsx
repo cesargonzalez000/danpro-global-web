@@ -1,7 +1,7 @@
 export default function PrivacyPolicy() {
   return (
     <div style={{ padding: '6rem 2rem', maxWidth: '800px', margin: '0 auto', minHeight: '60vh', lineHeight: '1.8' }}>
-      <h1 style={{ color: 'var(--primary-color)', marginBottom: '2rem' }}>Privacy Policy</h1>
+      <h1 style={{ color: 'var(--primary-color)', marginBottom: '2rem' }}>Política de privacidad</h1>
       
       <p style={{ marginBottom: '1.5rem' }}>
         At <strong>Danpro Global LLC</strong>, we value and protect the privacy of the corporate and commercial information of our partners and clients. This Privacy Policy describes how we collect, use, and safeguard data within the framework of our logistics and import operations.

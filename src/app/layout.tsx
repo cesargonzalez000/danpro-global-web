@@ -12,8 +12,7 @@ export const metadata: Metadata = {
   title: "Danpro Global LLC | Strategic Distribution for Marketplaces",
   description: "Danpro Global LLC optimizes your supply chain to scale in the U.S. market. Wholesale purchasing, e-commerce, and MAP brand protection.",
   icons: {
-    icon: '/favicon.png?v=2',
-    apple: '/apple-touch-icon.png?v=2',
+    icon: '/favicon.png',
   },
 };
 
@@ -25,10 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#02488D" />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/favicon.png?v=2" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2" />
+        <link rel="icon" href="/favicon.png" />
         <style dangerouslySetInnerHTML={{
           __html: `
             @media (max-width: 767px) {
@@ -51,20 +47,6 @@ export default function RootLayout({
           type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `window.$crisp=[];window.CRISP_WEBSITE_ID="de8d5aad-587d-4923-8ba2-9207e47fd75a";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
-          }}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              if ('serviceWorker' in navigator) {
-                window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/sw.js').then(
-                    function(registration) { console.log('ServiceWorker registration successful'); },
-                    function(err) { console.log('ServiceWorker registration failed: ', err); }
-                  );
-                });
-              }
-            `
           }}
         />
       </head>
