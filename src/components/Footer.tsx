@@ -71,7 +71,7 @@ export default function Footer() {
         <div className={styles.bottom}>
           <p>© 2026 Danpro Global LLC. All rights reserved.</p>
           <div className={styles.legal}>
-            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/privacy-policy">Política de privacidad</Link>
             <Link href="/terms-of-service">Terms of Service</Link>
           </div>
         </div>
