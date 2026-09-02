@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description: "Danpro Global LLC optimizes your supply chain to scale in the U.S. market. Wholesale purchasing, e-commerce, and MAP brand protection.",
   icons: {
     icon: '/favicon.png',
+    apple: '/apple-touch-icon.png',
   },
 };
 
@@ -24,7 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <style dangerouslySetInnerHTML={{
           __html: `
             @media (max-width: 767px) {
