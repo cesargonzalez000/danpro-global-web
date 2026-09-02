@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
 
           <div className={styles.column}>
-            <h4 className={styles.title}>Follow Us</h4>
+            <h4 className={styles.title}>Síguenos</h4>
             <div className={styles.social}>
               <a href="#" aria-label="Instagram"><Instagram size={24} /></a>
               <a href="#" aria-label="Facebook"><Facebook size={24} /></a>
